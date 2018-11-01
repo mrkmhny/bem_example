@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 35%;
+  min-width: 300px;
+}
+
+/*# sourceMappingURL=SearchForm.1.css.map */

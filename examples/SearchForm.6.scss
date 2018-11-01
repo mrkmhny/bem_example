@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 35%;
+  min-width: 300px;
+}
+
+.search-form {
+  width: 100%;
+  background: #fafafa;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.search-form__body {
+  margin: 15px;
+}
+
+.search-form__button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  color: #fff;
+  border-radius: 5px;
+  &--save-search {
+    background: #7dc243;
+    &:hover {
+      background: #6aa836;
+    }
+  }
+  &--search-submit {
+    background: #3777bc;
+    margin-top: 10px;
+  }
+}
+
+.search-form__select-box {
+  -webkit-appearance: none;
+  height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  background-image: url("https://www.carfax.com/uclassets/images/select-arrow.svg");
+  background-position: center right 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 10px;
+  padding: 6px;
+  &--disabled {
+    background-color: #e6e6e6;
+  }
+  &--mini {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+.search-form__row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search-form__miles-label {
+  font-size: 14px;
+  font-weight: 100;
+  white-space: nowrap;
+  margin: auto 5px auto 15px;
+}
+
+.search-form__text-input {
+  height: 35px;
+  width: 50%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.search-form__search-type-toggle-switch {
+  cursor: pointer;
+  background: #f5f5f5;
+  color: #3777bc;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #bdbdbd;
+  padding: 13px;
+  &:hover {
+    color: #1585cf;
+  }
+}
+

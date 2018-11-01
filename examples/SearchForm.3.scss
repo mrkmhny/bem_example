@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 35%;
+  min-width: 300px;
+}
+
+.search-form {
+  width: 100%;
+  background: #fafafa;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.search-form__body {
+  margin: 15px;
+}
+
+.search-form__search-type-toggle-switch {
+  cursor: pointer;
+  background: #f5f5f5;
+  color: #3777bc;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #bdbdbd;
+  padding: 13px;
+}
